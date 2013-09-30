@@ -7,7 +7,4 @@ script:
   - coverage xml -o shippable/codecoverage/coverage.xml python/sample.py
   notifications:
   email: false
-  campfire:
-    rooms:
-      - shippable:6c9f530a2f97fe5b093ed5f81cbb39ef6f0c80fa@575797
-    
+  
