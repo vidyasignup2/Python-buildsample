@@ -5,3 +5,5 @@ before_script: mkdir -p shippable/codecoverage
 script: 
   - coverage run --branch python/sample.py
   - coverage xml -o shippable/codecoverage/coverage.xml python/sample.py
+  notifications:
+  campfire: shippable.campfirenow.com:15feda5f8f3d84597c37c75a3cadab447de425b3@575797
