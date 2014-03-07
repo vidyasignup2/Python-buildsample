@@ -9,4 +9,4 @@ script:
   - coverage xml -o shippable/codecoverage/coverage.xml python/sample.py
 notifications:
   email:
-    - exampleone@org.com
+    - vidyac.raghav@gmail.com
