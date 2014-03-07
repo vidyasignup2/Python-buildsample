@@ -8,7 +8,6 @@ script:
   - coverage run --branch python/sample.py
   - coverage xml -o shippable/codecoverage/coverage.xml python/sample.py
 
-
 notifications:
   email:
     recipients:
