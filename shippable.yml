@@ -9,6 +9,6 @@ script:
   - coverage xml -o shippable/codecoverage/coverage.xml python/sample.py
 notifications:
   email:
-    - vidya@shippable.com
+    - vidyac.raghav@gmail.com
   on_success: never
   on_failure:  change
