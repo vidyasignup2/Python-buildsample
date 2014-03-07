@@ -10,3 +10,5 @@ script:
 notifications:
   email:
     - vidya@shippable.com
+  on_success: always
+  on_failure:  change
