@@ -9,14 +9,3 @@ script:
   - coverage xml -o shippable/codecoverage/coverage.xml python/sample.py
 
 
-# include
-branches:
-  only:
-    - testing3
-
-notifications:
-  email: 
-      - vidya@shippable.com
-      - vidyac.raghav@gmail.com
-    #testing
-#pull req
