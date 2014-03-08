@@ -14,7 +14,7 @@ branches:
     - testing3
 
 notifications:
-  - email: 
+  email: 
       - vidya@shippable.com
       - vidyac.raghav@gmail.com
     #testing
