@@ -1,5 +1,5 @@
 python:
-  - "2.7"
+  - "3.2"
 language: python
 before_script: mkdir -p shippable/codecoverage shippable/testresults
 install: pip install --use-mirrors -r requirements.txt
